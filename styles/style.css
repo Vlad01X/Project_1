@@ -1,9 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid rgba(250, 50, 50, .4); */
+  box-shadow: 0 0 3px rgb(255, 0, 0);
 }
 
-/* border: 2px solid rgba(250, 50, 50, .4); */
 
 .page {
   min-width: 1100px;
@@ -372,3 +373,33 @@
   color: #fff;
 }
 
+/* Здесь начинаются стили для видео */
+.video {
+  background-color: #fff;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.iframes {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.iframe {
+  width: 515px;
+  height: 316px;
+}
+
+/* Здесь заканчиваются стили для видео */
+/* Здесь начинаются стили для видео */
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+/* Здесь заканчиваются стили для видео */

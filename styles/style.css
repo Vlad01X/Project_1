@@ -30,6 +30,10 @@
   background-color: #f2f2f2;
 }
 
+.header__link {
+  text-decoration: none;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -376,30 +380,44 @@
 /* Здесь начинаются стили для видео */
 .video {
   background-color: #fff;
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   flex-direction: column;
 }
 
+.video__subtitle {
+  margin-bottom: 50px;
+  width: 60%;
+}
+
+.video__title {
+  width: 60%;
+}
+
 .iframes {
+  height: 316px;
   display: flex;
-  justify-content: center;
   column-gap: 20px;
+  overflow: visible;
 }
 
 .iframe {
   width: 515px;
   height: 316px;
+  margin-top: 40px;
+  border: 0;
 }
 
 /* Здесь заканчиваются стили для видео */
-/* Здесь начинаются стили для видео */
+/* Здесь начинаются стили для оакли */
 .oakley {
   padding-top: 160px;
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
 }
-/* Здесь заканчиваются стили для видео */
+/* Здесь заканчиваются стили для оакли */
+/* Здесь начинаются стили для фейнмана */

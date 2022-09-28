@@ -6,20 +6,21 @@
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./rotation.css">
 </head>
 <body>
   <div class="page">
     <!-- Шапка начинается -->
-    <section class="header">
+    <section id="header" class="header">
       <div class="logo header__logo">
         <img src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум" class="logo_place_header">
       </div>
         <h1 class="title header__title">Научиться учиться</h1>
         <p class="header__subtitle subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &#8594;</a>
+        <a href="#" class="header__link link">Узнать &#8594;</a>
         </p>
-      <div class="header__square-pic"></div>
-          <img src="./images/header-image.png" alt="main-illustration" class="main-illustration">
+      <div class="header__square-pic rotation"></div>
+          <img src="./images/header-image.png" alt="Опять двойка" class="main-illustration">
     </section>
     <!-- Шапка закончилась -->
 
@@ -43,7 +44,7 @@
     <!-- Секция проблемы обучения заканчивается-->
 
     <!-- Секция техники обучения начинается -->
-    <section class="techniques">
+    <section id="techniques" class="techniques">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">              <!--карточки-->
@@ -107,17 +108,12 @@
     <!-- Секвия Оакли заканчивается -->
 
     <!-- Секция Фейнман начинается -->
-    <section class="feynman">
+    <section id="feynman" class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
-      <a href="#" class="feynman__link">Подробнее &#8594;</a>
+      <a href="#" class="feynman__link link">Подробнее &#8594;</a>
     </section>
     <!-- Секвия Фейнман заканчивается -->
-    <!-- Секция Хан начинается -->
-    <section>
-
-    </section>
-    <!-- Секция Хан заканчивается -->
     <!-- Секция цифры начинается -->
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
@@ -130,7 +126,7 @@
         <li class="table__cell">
           <h3 class="table__heading">2.1 миллиарда</h3>
           <p class="table__text">Число нуждающихся в повышении квалификации</p>
-            <p>Всемирный Банк, 2017</p>
+          <p>Всемирный Банк, 2017</p>
         </li>
         <li class="table__cell">
           <h3 class="table__heading">1000 терабайт</h3>
@@ -143,7 +139,7 @@
         <li class="table__cell">
           <h3 class="table__heading">420 миллионов</h3>
           <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p>Всемирный Банк, 2017</p>
+          <p>Всемирный Банк, 2017</p>
         </li>
         <li class="table__cell">
           <h3 class="table__heading">17–20 лет</h3>
@@ -161,8 +157,27 @@
     </section>
     <!-- Секция цифры заканчивается -->
 
+    <!-- Секция Хан начинается -->
+    <section class="khan">
+      <div class="khan__container">
+        <h3 class="khan__author">Салман Хан</h3>
+        <h2 class="khan__title">Весь мир — школа</h2>
+        <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
+          школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания,
+          которые приносят успех в школе, карьере и жизни.</p>
+        <h3 class="khan__quote-author">Джордж Лукас</h3>
+        <h3 class="khan__quote-author-subline">Кинорежиссер, продюсер</h3>
+        <div class="khan__book-container">
+          <div class="khan__book-pic"> </div>
+          <a href="#" class="khan__buy-link link">Купить книгу &#8594;</a>
+        </div>
+      </div>
+    </section>
+    <!-- Секция Хан заканчивается -->
+
     <!-- Секция кауфман начинается -->
     <section class="kaufman">
+      <img src="./images/kaufman-triangle.svg" class="treangle rotation" alt="Треугольник">
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
       <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <ul class="table table__theme_dark">              <!--карточки 4-->
@@ -207,9 +222,10 @@
           <p class="table__text table__text__cell_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </li>
       </ul>
-    </section>
-    <!-- Секция цифры заканчивается -->
 
+    </section>
+
+    <!-- Секция цифры заканчивается -->
     <!-- Секция ресурсы начинается -->
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
@@ -217,22 +233,22 @@
       <ul class="resources__logo-zone">
         <li class="resources__link">
           <a href="#">
-            <img src="./images/logo/resources-arzamas.svg" alt="main-illustration" class="resources__logo">
+            <img src="./images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
           <a href="#">
-            <img src="./images/logo/resources-n1.svg" alt="main-illustration" class="resources__logo">
+            <img src="./images/logo/resources-n1.svg" alt="Н + 1" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
           <a href="#">
-            <img src="./images/logo/resources-strelka.svg" alt="main-illustration" class="resources__logo">
+            <img src="./images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
           <a href="#">
-            <img src="./images/logo/resources-polka.svg" alt="main-illustration" class="resources__logo">
+            <img src="./images/logo/resources-polka.svg" alt="Полка" class="resources__logo">
           </a>
       </li>
       </ul>
@@ -244,7 +260,7 @@
       <div class="footer__columns">
         <div class="footer__column_copyright">
           <div class="logo">
-            <img src="./images/logo_place_footer.svg" alt="Лого Яндекс Практикум" class="logo_place_footer">
+            <a href="https://practicum.yandex.ru/"><img src="./images/logo_place_footer.svg" alt="Лого Яндекс Практикум" class="logo_place_footer"></a>
           </div>
           <p class="footer__author">&copy; Влад Козлов</p>
         </div>
@@ -252,9 +268,9 @@
           <div class="footer__column_content_info">
             <h4 class="footer__column-heading">О Практикуме</h4>
             <ul class="column-link">
-              <li class="footer__column-links">Главная</li>
-              <li class="footer__column-links">Концепция</li>
-              <li class="footer__column-links">Наставники</li>
+              <li><a class="footer__column-links" href="#header">Главная</a></li>
+              <li><a class="footer__column-links" href="#techniques">Концепция</a></li>
+              <li><a class="footer__column-links" href="#feynman">Наставники</a></li>
             </ul>
           </div>
           <div class="footer__column_content_social">
@@ -263,7 +279,6 @@
             <li><a href="#" class="social-icon"><img src="./images/facebook_color_white.svg" alt="Лого Facebook"> Facebook</a></li>
             <li><a href="#" class="social-icon"><img src="./images/vk_color_white.svg" alt="Лого ВКонтакте"> BКонтакте</a></li>
             <li><a href="#" class="social-icon"><img src="./images/instagram_color_white.svg" alt="Лого Инстаграм"> Instagram</a></li>
-          </li>
           </ul>
         </div>
         </div>

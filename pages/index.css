@@ -1,0 +1,53 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/content/rotation/rotation.css');
+
+/*  */
+@import url('../blocks/header/header.css'); /* Подключение шапки */
+/*  */
+@import url('../blocks/content/description/description.css'); /* Подключение секции проблемы в обучении */
+@import url('../blocks/content/description/description_two-columns/description_two-columns.css'); /* Подключение проблемы в обучении */
+/*  */
+@import url('../blocks/content/techniques/techniques.css'); /* Подключение техники */
+@import url('../blocks/content/techniques/techniques_cards/techniques__cards-containers.css');
+@import url('../blocks/content/techniques/techniques_cards/techniques__cards/techniques__cards.css');
+/*  */
+@import url('../blocks/content/video/video.css'); /* Подключение видео */
+@import url('../blocks/content/video/video_content-container/video_content-container.css');
+/*  */
+@import url('../blocks/content/oakley/oakley.css'); /* Подключение Оакли */
+/*  */
+@import url('../blocks/content/feynman/feynman.css'); /* Подключение Фейнмана */
+@import url('../blocks/content/feynman/feunman_content-container/feunman_content-container.css');
+/*  */
+@import url('../blocks/content/digits/digits.css'); /* Подключение цифр и фактов */
+@import url('../blocks/content/digits/digits_table/digits_table.css');
+@import url('../blocks/content/digits/digits_table/digit_table__cell/digit_table__cell.css');
+/*  */
+@import url('../blocks/content/khan/khan.css'); /* Подключение Хана */
+@import url('../blocks/content/khan/khan_content-container/khan_content-container.css');
+@import url('../blocks/content/khan/khan_content-container/khan_book-container/khan_book-container.css');
+@import url('../blocks/content/khan/khan_content-container/khan_book-container/khan_book-pic/khan_book-pic.css');
+/*  */
+@import url('../blocks/content/kaufman/kaufman.css'); /* Подключение Кауфмана */
+@import url('../blocks/content/kaufman/kaufman_table__theme_dark/kaufman_table__theme_dark.css');
+@import url('../blocks/content/kaufman/kaufman_table__theme_dark/kaufman_table__cell_theme_dark/kaufman_table__cell_theme_dark.css');
+@import url('../blocks/content/kaufman/kaufman_table__theme_dark/kaufman_table__cell_theme_dark/kaufman_treangle.css');
+/*  */
+@import url('../blocks/content/resources/resources.css'); /* Подключение ресурсов */
+@import url('../blocks/content/resources/resources_logo-zone/resources_logo-zone.css');
+@import url('../blocks/content/resources/resources_logo-zone/resources_link/resources_link.css');
+@import url('../blocks/content/resources/resources_logo-zone/resources_logo/resources_logo.css');
+/*  */
+@import url('../blocks/footer/footer.css'); /* Подключение подвала */
+@import url('../blocks/footer/footer_columns/footer_columns.css');
+@import url('../blocks/footer/footer_columns/footer__column_copyright/footer__column_copyright.css');
+@import url('../blocks/footer/footer_columns/footer__column_copyright/logo_place_footer/logo_place_footer.css');
+@import url('../blocks/footer/footer_columns/footer__column_copyright/footer__author/footer__author.css');
+@import url('../blocks/footer/footer_columns/footer__columns_info/footer__columns_info.css');
+@import url('../blocks/footer/footer_columns/footer__columns_info/footer__column_content_info/footer__column-heading.css');
+@import url('../blocks/footer/footer_columns/footer__columns_info/footer__column_content_info/footer__column-links.css');
+@import url('../blocks/footer/footer_columns/footer__columns_info/footer__column_content_info/footer__column-links/footer__column-link.css');
+@import url('../blocks/footer/footer_columns/footer__columns_info/footer__column_content_social/footer__column_content_social.css');
+/*  */

@@ -1,0 +1,22 @@
+.video__subtitle {
+  margin-bottom: 50px;
+  width: 60%;
+}
+
+.video__title {
+  width: 60%;
+}
+
+.video__iframes {
+  height: 316px;
+  display: flex;
+  column-gap: 20px;
+  overflow: visible;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-top: 40px;
+  border: 0;
+}

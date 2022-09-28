@@ -1,0 +1,35 @@
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.breef {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.paragraph {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.span-accent {
+  font-weight: 600;
+}
+
+.main-text {
+  min-width: 784px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}

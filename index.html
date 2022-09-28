@@ -4,23 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./normalize.css">
-  <link rel="stylesheet" href="./rotation.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div class="page">
+  <div class="page fonts">
     <!-- Шапка начинается -->
     <section id="header" class="header">
       <div class="logo header__logo">
-        <img src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум" class="logo_place_header">
+        <a href="https://practicum.yandex.ru/"><img src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум" class="logo_place_header"></a>
       </div>
-        <h1 class="title header__title">Научиться учиться</h1>
-        <p class="header__subtitle subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        <h1 class="header__title">Научиться учиться</h1>
+        <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link link">Узнать &#8594;</a>
         </p>
-      <div class="header__square-pic rotation"></div>
-          <img src="./images/header-image.png" alt="Опять двойка" class="main-illustration">
+        <img src="./images/header-image.png" alt="Опять двойка" class="header__main-illustration">
+        <div class="header__square-pic rotation"></div>
     </section>
     <!-- Шапка закончилась -->
 
@@ -47,31 +45,31 @@
     <section id="techniques" class="techniques">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-      <ul class="cards">              <!--карточки-->
-        <li class="cards__item">      <!--карточка два вида внимания-->
-          <img src="./images/cards-attention.png" alt="Книга" class="cards_image">
-          <h3 class="cards_title">Два вида внимания</h3>
-          <p class="cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+      <ul class="techniques__cards">              <!--карточки-->
+        <li class="techniques__cards__item">      <!--карточка два вида внимания-->
+          <img src="./images/cards-attention.png" alt="Книга" class="techniques__cards_image">
+          <h3 class="techniques__cards_title">Два вида внимания</h3>
+          <p class="techniques__cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
         </li>
-        <li class="cards__item">      <!--карточка recall-->
-          <img src="./images/cards-recall.png" alt="Статуя" class="cards_image">
-          <h3 class="cards_title">Recall</h3>
-          <p class="cards_description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+        <li class="techniques__cards__item">      <!--карточка recall-->
+          <img src="./images/cards-recall.png" alt="Статуя" class="techniques__cards_image">
+          <h3 class="techniques__cards_title">Recall</h3>
+          <p class="techniques__cards_description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
         </li>
-        <li class="cards__item">      <!--карточка интерливинг-->
-          <img src="./images/cards-interliving.png" alt="Люди" class="cards_image">
-          <h3 class="cards_title">Интерливинг</h3>
-          <p class="cards_description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+        <li class="techniques__cards__item">      <!--карточка интерливинг-->
+          <img src="./images/cards-interliving.png" alt="Люди" class="techniques__cards_image">
+          <h3 class="techniques__cards_title">Интерливинг</h3>
+          <p class="techniques__cards_description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
         </li>
-        <li class="cards__item">      <!--карточка вопросы-->
-          <img src="./images/cards-question.png" alt="Комната" class="cards_image">
-          <h3 class="cards_title">Вопросы</h3>
-          <p class="cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+        <li class="techniques__cards__item">      <!--карточка вопросы-->
+          <img src="./images/cards-question.png" alt="Комната" class="techniques__cards_image">
+          <h3 class="techniques__cards_title">Вопросы</h3>
+          <p class="techniques__cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
         </li>
-        <li class="cards__item">      <!--карточка иллюзия компетентности-->
-          <img src="./images/cards-competence.png" alt="Книги" class="cards_image">
-          <h3 class="cards_title">Иллюзия компетентности</h3>
-          <p class="cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+        <li class="techniques__cards__item">      <!--карточка иллюзия компетентности-->
+          <img src="./images/cards-competence.png" alt="Книги" class="techniques__cards_image">
+          <h3 class="techniques__cards_title">Иллюзия компетентности</h3>
+          <p class="techniques__cards_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
         </li>
       </ul>
     </section>
@@ -81,12 +79,11 @@
     <section class="video">
       <h2 class="section-title video__title">Видео нa TED</h2>
       <p class="section-subtitle video__subtitle">Для тех, кто любит прокрастинировать</p>
-      <div class="iframes">
-          <iframe class="iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video__iframes">
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
-
     <!-- Секвия видео заканчивается -->
 
     <!-- Секция Оакли начинается -->
@@ -114,6 +111,7 @@
       <a href="#" class="feynman__link link">Подробнее &#8594;</a>
     </section>
     <!-- Секвия Фейнман заканчивается -->
+
     <!-- Секция цифры начинается -->
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
@@ -224,30 +222,30 @@
       </ul>
 
     </section>
-
     <!-- Секция цифры заканчивается -->
+
     <!-- Секция ресурсы начинается -->
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li class="resources__link">
-          <a href="#">
+          <a href="https://arzamas.academy/">
             <img src="./images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
-          <a href="#">
-            <img src="./images/logo/resources-n1.svg" alt="Н + 1" class="resources__logo">
+          <a href="https://nplus1.ru/">
+            <img src="./images/logo/resources-n1.svg" alt="Н плюс один" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
-          <a href="#">
+          <a href="https://strelka.com/ru">
             <img src="./images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
-          <a href="#">
+          <a href="https://polka.academy/">
             <img src="./images/logo/resources-polka.svg" alt="Полка" class="resources__logo">
           </a>
       </li>
@@ -267,17 +265,17 @@
         <div class="footer__columns_info">
           <div class="footer__column_content_info">
             <h4 class="footer__column-heading">О Практикуме</h4>
-            <ul class="column-link">
-              <li><a class="footer__column-links" href="#header">Главная</a></li>
-              <li><a class="footer__column-links" href="#techniques">Концепция</a></li>
-              <li><a class="footer__column-links" href="#feynman">Наставники</a></li>
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="#header">Главная</a></li>
+              <li><a class="footer__column-link" href="#techniques">Концепция</a></li>
+              <li><a class="footer__column-link" href="#feynman">Наставники</a></li>
             </ul>
           </div>
           <div class="footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
-          <ul class="column-link">
+          <ul class="footer__column-links">
             <li><a href="#" class="social-icon"><img src="./images/facebook_color_white.svg" alt="Лого Facebook"> Facebook</a></li>
-            <li><a href="#" class="social-icon"><img src="./images/vk_color_white.svg" alt="Лого ВКонтакте"> BКонтакте</a></li>
+            <li><a href="https://vk.com/yandex.practicum" class="social-icon"><img src="./images/vk_color_white.svg" alt="Лого ВКонтакте"> BКонтакте</a></li>
             <li><a href="#" class="social-icon"><img src="./images/instagram_color_white.svg" alt="Лого Инстаграм"> Instagram</a></li>
           </ul>
         </div>

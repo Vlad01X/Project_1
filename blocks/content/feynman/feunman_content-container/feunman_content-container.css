@@ -1,0 +1,25 @@
+.feynman__title {
+  width: 648px;
+  margin-top: 100px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 70px;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+}

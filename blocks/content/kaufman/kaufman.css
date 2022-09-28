@@ -1,0 +1,20 @@
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title_theme_dark {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+  margin-top: 0;
+}

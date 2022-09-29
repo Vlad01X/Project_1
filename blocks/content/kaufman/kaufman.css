@@ -12,6 +12,7 @@
 .section-title_theme_dark {
   color: #fff;
   margin-bottom: 20px;
+  padding-top: 0;
 }
 
 .section-subtitle_theme_dark {

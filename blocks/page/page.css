@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-shadow: 0 0 5px red;
 }
 
 .page {
@@ -18,3 +19,4 @@
   opacity: 50%;
   transition: opacity .5s linear;
 }
+

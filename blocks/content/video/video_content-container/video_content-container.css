@@ -1,14 +1,6 @@
-.video__subtitle {
-  margin-bottom: 50px;
-  width: 60%;
-}
-
-.video__title {
-  width: 60%;
-}
-
 .video__iframes {
   height: 316px;
+  /* margin-top: 50px; */
   display: flex;
   column-gap: 20px;
   overflow: visible;

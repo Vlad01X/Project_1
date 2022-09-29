@@ -5,7 +5,7 @@
   /* выше установили ограничения для секции */
   position: relative;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
@@ -34,28 +34,26 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
+.logo_place_header {
+  padding-top: 30px;
+  padding-left: 64px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
 
 .logo {
   width: 228px;
   height: 32px;
 }
 
-.header__logo {
-  padding-top: 30px;
-  padding-left: 64px;
-  position: absolute;
-  z-index: 1;
-}
 
 .header__title {
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  padding-left: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
+  margin-left: 64px;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -66,9 +64,9 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   margin-left: 64px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .header__main-illustration {

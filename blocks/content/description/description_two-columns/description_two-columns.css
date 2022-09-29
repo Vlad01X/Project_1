@@ -5,7 +5,7 @@
   width: 80%;
 }
 
-.breef {
+.two-columns_breef {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -13,7 +13,7 @@
   color: #2f80ed;
 }
 
-.paragraph {
+.two-columns_two-columns_paragraph {
   margin: 0;
   margin-bottom: 30px;
 }
@@ -22,11 +22,11 @@
   margin-bottom: 0;
 }
 
-.span-accent {
+.two-columns_span-accent {
   font-weight: 600;
 }
 
-.main-text {
+.two-columns_main-text {
   min-width: 784px;
   width: 80%;
   line-height: 34px;

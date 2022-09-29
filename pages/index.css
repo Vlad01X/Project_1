@@ -10,7 +10,7 @@
 @import url('../blocks/content/description/description_two-columns/description_two-columns.css'); /* Подключение проблемы в обучении */
 /*  */
 @import url('../blocks/content/techniques/techniques.css'); /* Подключение техники */
-@import url('../blocks/content/techniques/techniques_cards/techniques__cards-containers.css');
+@import url('../blocks/content/techniques/techniques_cards/cards-containers.css');
 @import url('../blocks/content/techniques/techniques_cards/techniques__cards/techniques__cards.css');
 /*  */
 @import url('../blocks/content/video/video.css'); /* Подключение видео */

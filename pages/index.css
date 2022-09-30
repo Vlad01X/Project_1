@@ -1,46 +1,53 @@
-@import url('../vendor/normalize.css');
-@import url('../fonts/fonts.css');
-@import url('../blocks/page/page.css');
-@import url('../blocks/content/rotation/rotation.css');
-
+@import url('../vendor/normalize.css'); /* сonnecting normalize file */
+@import url('../fonts/fonts.css'); /* сonnecting fonts */
+@import url('../blocks/page/page.css'); /* сonnecting block page */
+@import url('../blocks/content/rotation/rotation.css'); /* Enabling rotation animation */
 /*  */
-@import url('../blocks/header/header.css'); /* Подключение шапки */
+@import url('../blocks/header/header.css'); /* сonnecting header section */
+@import url('../blocks/header/header_link/header__link.css');
+@import url('../blocks/header/header_logo/header__logo.css');
+@import url('../blocks/header/header_pic/header__main-illustration.css');
+@import url('../blocks/header/header_pic/header__square-pic.css');
+@import url('../blocks/header/header_title/header__title.css');
+@import url('../blocks/header/header_subtitle/header__subtitle.css');
 /*  */
-@import url('../blocks/content/description/description.css'); /* Подключение секции проблемы в обучении */
-@import url('../blocks/content/description/description_two-columns/description_two-columns.css'); /* Подключение проблемы в обучении */
+@import url('../blocks/content/description/description.css'); /* сonnecting the Problems in learning section */
+@import url('../blocks/content/description/description_two-columns/description_two-columns.css');
+@import url('../blocks/content/description/description_two-columns/description_two-columns_breef/description__two-columns_breef.css');
+@import url('../blocks/content/description/description_two-columns/description_two-columns_main-text/description__two-columns_paragraph.css');
 /*  */
-@import url('../blocks/content/techniques/techniques.css'); /* Подключение техники */
+@import url('../blocks/content/techniques/techniques.css'); /* сonnection of the training technique section */
 @import url('../blocks/content/techniques/techniques_cards/cards-containers.css');
 @import url('../blocks/content/techniques/techniques_cards/techniques__cards/techniques__cards.css');
 /*  */
-@import url('../blocks/content/video/video.css'); /* Подключение видео */
+@import url('../blocks/content/video/video.css'); /* сonnection video section */
 @import url('../blocks/content/video/video_content-container/video_content-container.css');
 /*  */
-@import url('../blocks/content/oakley/oakley.css'); /* Подключение Оакли */
+@import url('../blocks/content/oakley/oakley.css'); /* сonnection oakley section */
 /*  */
-@import url('../blocks/content/feynman/feynman.css'); /* Подключение Фейнмана */
+@import url('../blocks/content/feynman/feynman.css'); /* сonnection feynman section */
 @import url('../blocks/content/feynman/feunman_content-container/feunman_content-container.css');
 /*  */
-@import url('../blocks/content/digits/digits.css'); /* Подключение цифр и фактов */
+@import url('../blocks/content/digits/digits.css'); /* connecting the figures and facts section */
 @import url('../blocks/content/digits/digits_table/digits_table.css');
 @import url('../blocks/content/digits/digits_table/digit_table__cell/digit_table__cell.css');
 /*  */
-@import url('../blocks/content/khan/khan.css'); /* Подключение Хана */
+@import url('../blocks/content/khan/khan.css'); /* connecting khan section */
 @import url('../blocks/content/khan/khan_content-container/khan_content-container.css');
 @import url('../blocks/content/khan/khan_content-container/khan_book-container/khan_book-container.css');
 @import url('../blocks/content/khan/khan_content-container/khan_book-container/khan_book-pic/khan_book-pic.css');
 /*  */
-@import url('../blocks/content/kaufman/kaufman.css'); /* Подключение Кауфмана */
+@import url('../blocks/content/kaufman/kaufman.css'); /* connecting kaufman section */
 @import url('../blocks/content/kaufman/kaufman_table__theme_dark/kaufman_table__theme_dark.css');
 @import url('../blocks/content/kaufman/kaufman_table__theme_dark/kaufman_table__cell_theme_dark/kaufman_table__cell_theme_dark.css');
 @import url('../blocks/content/kaufman/kaufman_table__theme_dark/kaufman_table__cell_theme_dark/kaufman_treangle.css');
 /*  */
-@import url('../blocks/content/resources/resources.css'); /* Подключение ресурсов */
+@import url('../blocks/content/resources/resources.css'); /* connecting the resources section */
 @import url('../blocks/content/resources/resources_logo-zone/resources_logo-zone.css');
 @import url('../blocks/content/resources/resources_logo-zone/resources_link/resources_link.css');
 @import url('../blocks/content/resources/resources_logo-zone/resources_logo/resources_logo.css');
 /*  */
-@import url('../blocks/footer/footer.css'); /* Подключение подвала */
+@import url('../blocks/footer/footer.css'); /* connecting footer */
 @import url('../blocks/footer/footer_columns/footer_columns.css');
 @import url('../blocks/footer/footer_columns/footer__column_copyright/footer__column_copyright.css');
 @import url('../blocks/footer/footer_columns/footer__column_copyright/logo_place_footer/logo_place_footer.css');

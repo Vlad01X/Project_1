@@ -1,4 +1,6 @@
 .techniques {
+  margin: 0;
+  padding: 0;
   width: 80%;
   background-color: #fff;
   margin: auto;
@@ -13,6 +15,7 @@
   font-size: 60px;
   font-weight: 600;
   padding-top: 100px;
+  margin: 0;
 }
 
 .section-subtitle {

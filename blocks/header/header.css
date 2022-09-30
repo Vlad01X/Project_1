@@ -2,7 +2,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   position: relative;
   display: flex;
   align-items: center;
@@ -10,71 +9,4 @@
   padding: 0;
   background-color: #f2f2f2;
   overflow: hidden;
-}
-
-.header__link {
-  text-decoration: none;
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-.header__square-pic {
-  display: flex;
-  position: absolute;
-  top: 64px;
-  right: 0;
-  width: 568px;
-  height: 568px;
-  background-color: #2f80ed;
-  z-index: 1;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.logo_place_header {
-  padding-top: 30px;
-  padding-left: 64px;
-  position: absolute;
-  top: 0;
-  z-index: 3;
-}
-
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-
-.header__title {
-  width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  margin-left: 64px;
-  z-index: 3;
-}
-
-.header__subtitle {
-  box-sizing: border-box;
-  position: absolute;
-  bottom: 0;
-  width: 338px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  margin-bottom: 30px;
-  margin-left: 64px;
-  z-index: 3;
-}
-
-.header__main-illustration {
-  display: flex;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 608px;
-  width: 765px;
-  z-index: 2;
 }

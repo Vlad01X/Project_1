@@ -1,6 +1,7 @@
 .kausman_treangle {
   position: absolute;
   right: -210px;
+  top: 0;
   z-index: 1;
   background-image: url(/images/kaufman-triangle.svg);
   width: 877px;

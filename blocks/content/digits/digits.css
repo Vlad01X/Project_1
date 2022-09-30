@@ -1,8 +1,7 @@
 .digits {
   background-color: #fff;
-  padding: 100px;
+  padding: 0 100px 100px 100px;
   margin: auto;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;

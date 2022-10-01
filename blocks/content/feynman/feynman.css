@@ -3,7 +3,8 @@
   background-position: bottom left;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 867px;
+  height: 890px;
+  min-height: 637px;
   display: flex;
   align-items: center;
   flex-direction: column;

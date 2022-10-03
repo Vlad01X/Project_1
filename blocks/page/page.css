@@ -4,8 +4,3 @@
   margin: 0 auto;
   font-family: "inter", Arial, sans-serif;
 }
-
-.link:hover {
-  opacity: 50%;
-  transition: opacity .3s linear;
-}
